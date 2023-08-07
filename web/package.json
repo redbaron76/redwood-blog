@@ -10,15 +10,22 @@
       "defaults"
     ]
   },
+  "scripts": {
+    "prepare": "panda codegen"
+  },
   "dependencies": {
     "@redwoodjs/forms": "6.0.3",
     "@redwoodjs/router": "6.0.3",
     "@redwoodjs/web": "6.0.3",
+    "humanize-string": "2.1.0",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@redwoodjs/vite": "6.0.3"
+    "@pandacss/dev": "^0.9.0",
+    "@redwoodjs/vite": "6.0.3",
+    "postcss": "^8.4.27",
+    "postcss-loader": "^7.3.3"
   }
 }
